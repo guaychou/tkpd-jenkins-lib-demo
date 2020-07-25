@@ -4,6 +4,7 @@ def call (Map config) {
     def text = config.get('text','lordchou')
 
     pipeline {
+        agent any 1
         stages {
             stage('joss') {
                 steps {
