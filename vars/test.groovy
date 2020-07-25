@@ -7,9 +7,12 @@ def call (Map config) {
         stages {
             stage('joss') {
                 steps {
-                    script {
-                        testPrint(text)
-                    }
+                  echo 'hello world'
+                }
+            }
+            stage('booss'){
+                steps{
+                    echo 'boss'
                 }
             }
         }
