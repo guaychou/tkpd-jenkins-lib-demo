@@ -5,9 +5,12 @@ def call (Map config) {
     pipeline {
         stages{
             stage('tes echo aja'){
-                script{
-                    testPrint(text)
+                steps {
+                    script{
+                        testPrint(text)
+                    }   
                 }
+                
             }
         }
     }
