@@ -13,8 +13,8 @@ def call (Map config) {
                 }
             }
         }
+   }
 }
-
 def testPrint(text) {
     echo "test ${test}"
 }
