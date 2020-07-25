@@ -17,5 +17,5 @@ def call (Map config) {
    }
 }
 def testPrint(text) {
-    echo "test ${test}"
+    echo "test ${text}"
 }
